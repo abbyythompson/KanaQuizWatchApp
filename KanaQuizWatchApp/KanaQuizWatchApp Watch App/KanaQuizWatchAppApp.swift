@@ -86,10 +86,5 @@ struct KanaQuizWatchApp_Watch_AppApp: App {
                     }
                 }
         }
-        .onChange(of: scenePhase) { phase in
-            if phase == .active {
-                // App became active; add logic here if you want to refresh state or reschedule notifications
-            }
-        }
     }
 }
