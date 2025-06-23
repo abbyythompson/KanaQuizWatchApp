@@ -63,10 +63,10 @@ struct ContentView: View {
                     .padding()
                 
                 if !showAnswer {
-                    Text("What is this?")
+                    Text("Which character?")
                         .foregroundColor(.secondary)
                 } else {
-                    Text("It's \"\(quizKana[currentIndex].romaji)\" (\(quizKana[currentIndex].type))").foregroundColor(.secondary)
+                    Text("\(quizKana[currentIndex].character) is \(quizKana[currentIndex].type)").foregroundColor(.secondary)
                 }
                 
                 Button(showAnswer ? (currentIndex == 4 ? "Finish" : "Next") : "Show Answer") {
