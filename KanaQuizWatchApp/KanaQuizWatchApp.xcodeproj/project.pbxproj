@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F928A52E09C182009E94DB /* KanaQuizWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07F928A42E09C182009E94DB /* KanaQuizWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F928A62E09C182009E94DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F928982E09C182009E94DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F928A32E09C182009E94DB;
+			remoteInfo = "KanaQuizWatchApp Watch App";
+		};
+		07F928B42E09C184009E94DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F928982E09C182009E94DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F928A32E09C182009E94DB;
+			remoteInfo = "KanaQuizWatchApp Watch App";
+		};
+		07F928BE2E09C184009E94DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F928982E09C182009E94DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F928A32E09C182009E94DB;
+			remoteInfo = "KanaQuizWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07F928CA2E09C184009E94DB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				07F928A52E09C182009E94DB /* KanaQuizWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07F9289E2E09C182009E94DB /* KanaQuizWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaQuizWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F928A42E09C182009E94DB /* KanaQuizWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KanaQuizWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F928B32E09C184009E94DB /* KanaQuizWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KanaQuizWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F928BD2E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KanaQuizWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		07F928A82E09C182009E94DB /* KanaQuizWatchApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KanaQuizWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		07F928B62E09C184009E94DB /* KanaQuizWatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KanaQuizWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		07F928C02E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KanaQuizWatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F928A12E09C182009E94DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928B02E09C184009E94DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928BA2E09C184009E94DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F928972E09C182009E94DB = {
+			isa = PBXGroup;
+			children = (
+				07F928A82E09C182009E94DB /* KanaQuizWatchApp Watch App */,
+				07F928B62E09C184009E94DB /* KanaQuizWatchApp Watch AppTests */,
+				07F928C02E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests */,
+				07F9289F2E09C182009E94DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F9289F2E09C182009E94DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F9289E2E09C182009E94DB /* KanaQuizWatchApp.app */,
+				07F928A42E09C182009E94DB /* KanaQuizWatchApp Watch App.app */,
+				07F928B32E09C184009E94DB /* KanaQuizWatchApp Watch AppTests.xctest */,
+				07F928BD2E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F9289D2E09C182009E94DB /* KanaQuizWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F928CB2E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp" */;
+			buildPhases = (
+				07F9289C2E09C182009E94DB /* Resources */,
+				07F928CA2E09C184009E94DB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F928A72E09C182009E94DB /* PBXTargetDependency */,
+			);
+			name = KanaQuizWatchApp;
+			packageProductDependencies = (
+			);
+			productName = KanaQuizWatchApp;
+			productReference = 07F9289E2E09C182009E94DB /* KanaQuizWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		07F928A32E09C182009E94DB /* KanaQuizWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F928C72E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch App" */;
+			buildPhases = (
+				07F928A02E09C182009E94DB /* Sources */,
+				07F928A12E09C182009E94DB /* Frameworks */,
+				07F928A22E09C182009E94DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				07F928A82E09C182009E94DB /* KanaQuizWatchApp Watch App */,
+			);
+			name = "KanaQuizWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "KanaQuizWatchApp Watch App";
+			productReference = 07F928A42E09C182009E94DB /* KanaQuizWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F928B22E09C184009E94DB /* KanaQuizWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F928CE2E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch AppTests" */;
+			buildPhases = (
+				07F928AF2E09C184009E94DB /* Sources */,
+				07F928B02E09C184009E94DB /* Frameworks */,
+				07F928B12E09C184009E94DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F928B52E09C184009E94DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07F928B62E09C184009E94DB /* KanaQuizWatchApp Watch AppTests */,
+			);
+			name = "KanaQuizWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "KanaQuizWatchApp Watch AppTests";
+			productReference = 07F928B32E09C184009E94DB /* KanaQuizWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07F928BC2E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F928D12E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch AppUITests" */;
+			buildPhases = (
+				07F928B92E09C184009E94DB /* Sources */,
+				07F928BA2E09C184009E94DB /* Frameworks */,
+				07F928BB2E09C184009E94DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F928BF2E09C184009E94DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07F928C02E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests */,
+			);
+			name = "KanaQuizWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "KanaQuizWatchApp Watch AppUITests";
+			productReference = 07F928BD2E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F928982E09C182009E94DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					07F9289D2E09C182009E94DB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					07F928A32E09C182009E94DB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					07F928B22E09C184009E94DB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 07F928A32E09C182009E94DB;
+					};
+					07F928BC2E09C184009E94DB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 07F928A32E09C182009E94DB;
+					};
+				};
+			};
+			buildConfigurationList = 07F9289B2E09C182009E94DB /* Build configuration list for PBXProject "KanaQuizWatchApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F928972E09C182009E94DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07F9289F2E09C182009E94DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F9289D2E09C182009E94DB /* KanaQuizWatchApp */,
+				07F928A32E09C182009E94DB /* KanaQuizWatchApp Watch App */,
+				07F928B22E09C184009E94DB /* KanaQuizWatchApp Watch AppTests */,
+				07F928BC2E09C184009E94DB /* KanaQuizWatchApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F9289C2E09C182009E94DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928A22E09C182009E94DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928B12E09C184009E94DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928BB2E09C184009E94DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F928A02E09C182009E94DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928AF2E09C184009E94DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F928B92E09C184009E94DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F928A72E09C182009E94DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F928A32E09C182009E94DB /* KanaQuizWatchApp Watch App */;
+			targetProxy = 07F928A62E09C182009E94DB /* PBXContainerItemProxy */;
+		};
+		07F928B52E09C184009E94DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F928A32E09C182009E94DB /* KanaQuizWatchApp Watch App */;
+			targetProxy = 07F928B42E09C184009E94DB /* PBXContainerItemProxy */;
+		};
+		07F928BF2E09C184009E94DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F928A32E09C182009E94DB /* KanaQuizWatchApp Watch App */;
+			targetProxy = 07F928BE2E09C184009E94DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F928C52E09C184009E94DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07F928C62E09C184009E94DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		07F928C82E09C184009E94DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KanaQuizWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbbyThompson.KanaQuizWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		07F928C92E09C184009E94DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KanaQuizWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbbyThompson.KanaQuizWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		07F928CC2E09C184009E94DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = KanaQuizWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbbyThompson.KanaQuizWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07F928CD2E09C184009E94DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = KanaQuizWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AbbyThompson.KanaQuizWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F928CF2E09C184009E94DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AbbyThompson.KanaQuizWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaQuizWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanaQuizWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		07F928D02E09C184009E94DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AbbyThompson.KanaQuizWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaQuizWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanaQuizWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		07F928D22E09C184009E94DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AbbyThompson.KanaQuizWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KanaQuizWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		07F928D32E09C184009E94DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AbbyThompson.KanaQuizWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KanaQuizWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F9289B2E09C182009E94DB /* Build configuration list for PBXProject "KanaQuizWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F928C52E09C184009E94DB /* Debug */,
+				07F928C62E09C184009E94DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F928C72E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F928C82E09C184009E94DB /* Debug */,
+				07F928C92E09C184009E94DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F928CB2E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F928CC2E09C184009E94DB /* Debug */,
+				07F928CD2E09C184009E94DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F928CE2E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F928CF2E09C184009E94DB /* Debug */,
+				07F928D02E09C184009E94DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F928D12E09C184009E94DB /* Build configuration list for PBXNativeTarget "KanaQuizWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F928D22E09C184009E94DB /* Debug */,
+				07F928D32E09C184009E94DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F928982E09C182009E94DB /* Project object */;
+}
