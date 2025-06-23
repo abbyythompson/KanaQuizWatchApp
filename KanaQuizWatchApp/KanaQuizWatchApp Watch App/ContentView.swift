@@ -10,30 +10,49 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showAnswer = false
-    @State private var currentKana = kanaList.randomElement()!
+    @State private var quizKana: [Kana] = Array(kanaList.shuffled().prefix(5))
+    @State private var currentIndex = 0
+    @State private var quizComplete = false
     
     var body: some View {
         VStack {
-            Text(showAnswer ? currentKana.romaji : currentKana.character)
-                .font(.system(size: 48))
-                .padding()
-            
-            if !showAnswer {
-                Text("What is this \(currentKana.type)?")
-            } else {
-                Text("It's \"\(currentKana.romaji)\" (\(currentKana.type))")
-            }
-            
-            Button(showAnswer ? "Next" : "Show Answer") {
-                if showAnswer {
-                    // Next question
-                    currentKana = kanaList.randomElement()!
+            if quizComplete {
+                Text("Quiz Complete!")
+                    .font(.title2)
+                    .padding()
+                Button("Done") {
+                    // Reset quiz for next time
+                    quizKana = Array(kanaList.shuffled().prefix(5))
+                    currentIndex = 0
                     showAnswer = false
-                } else {
-                    showAnswer = true
+                    quizComplete = false
                 }
+                .padding()
+            } else {
+                Text(showAnswer ? quizKana[currentIndex].romaji : quizKana[currentIndex].character)
+                    .font(.system(size: 48))
+                    .padding()
+                
+                if !showAnswer {
+                    Text("What is this \(quizKana[currentIndex].type)?")
+                } else {
+                    Text("It's \"\(quizKana[currentIndex].romaji)\" (\(quizKana[currentIndex].type))")
+                }
+                
+                Button(showAnswer ? (currentIndex == 4 ? "Finish" : "Next") : "Show Answer") {
+                    if showAnswer {
+                        if currentIndex == 4 {
+                            quizComplete = true
+                        } else {
+                            currentIndex += 1
+                            showAnswer = false
+                        }
+                    } else {
+                        showAnswer = true
+                    }
+                }
+                .padding()
             }
-            .padding()
         }
     }
     
